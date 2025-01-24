@@ -41,7 +41,7 @@ const Home = () => {
 			<div onClick={() => SetSelectedColor("yellow")} className={"light yellow"+ ((selectedColor === "yellow") ? " glow" : "")}></div>
 			<div onClick={() => SetSelectedColor("green")} className={"light green"+ ((selectedColor === "green") ? " glow" : "")}></div>
 			<button type="button" class="btn btn-primary" onClick={alternarColor}>CambiarColor</button>
-			<button type="button" class="btn btn-primary" onClick={addColor}>CambiarColor</button>
+			
 			
 		</div>
 	);
